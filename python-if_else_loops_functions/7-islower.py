@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def islower(c):
-    if c=="":
+    if c=="''":
         return
 
     if c.islower():
