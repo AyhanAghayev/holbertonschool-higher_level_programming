@@ -4,3 +4,5 @@ def uppercase(str):
         if i.lower() == i:
             print("{}".format(chr(ord(i)-32)), end="")
 print()
+
+uppercase = __import__('8-uppercase').uppercase
