@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 def islower(c):
     if c=='':
-        print("")
+        print()
 
     if c.islower():
         return True
