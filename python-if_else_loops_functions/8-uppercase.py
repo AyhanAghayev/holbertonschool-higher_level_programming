@@ -5,4 +5,4 @@
         else:
             upper_char = char
         print("{}".format(f"{upper_char}"), end="")
-    print()
+print()
