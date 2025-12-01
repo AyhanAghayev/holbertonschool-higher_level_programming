@@ -4,4 +4,4 @@ from add_0.py import add
 if __name__ == "__main__":
     a = 1
     b = 2
-    print("{a:d} + {b:d} = {c:d}".format(a=a, b=b, c=add(a, b)))
+    print("{} + {} = {}".format(a, b, add(a, b)))
