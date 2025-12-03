@@ -9,5 +9,5 @@ if __name__ == "__main__":
     if len(args) - 1 == 0:
         print(0)
     for i in range(1, len(args)):
-        sum = sum + args[i]
+        sum = sum + int(args[i])
     print(sum)
