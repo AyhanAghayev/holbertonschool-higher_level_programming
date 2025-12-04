@@ -3,5 +3,5 @@ def no_c(mystr):
     newstr = ""
     for char in mystr:
         if char != 'c' or char != 'C':
-            newstr.append(char)
+            newstr += char
     return newstr
