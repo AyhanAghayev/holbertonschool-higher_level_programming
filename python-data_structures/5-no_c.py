@@ -1,0 +1,7 @@
+#!/usr/bin/python3
+def no_c(mystr):
+    newstr = ""
+    for char in mystr:
+        if char != 'c' or char != 'C':
+            newstr.append(char)
+    return newstr
