@@ -4,6 +4,6 @@ def square_matrix_simple(matrix=[]):
     for rows in matrix:
         newrows = []
         for i in rows:
-            newrows.append(i)
+            newrows.append(i*i)
         newtrix.append(newrows)
     return newtrix
