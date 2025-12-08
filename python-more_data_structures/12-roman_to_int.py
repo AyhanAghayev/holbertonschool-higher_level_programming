@@ -4,7 +4,7 @@ def roman_to_int(roman_string):
     sum = 0
     for index, value in enumerate(roman_string):
         if roman_keys[roman_string[index-1]] >= roman_keys[value]:
-            sum += roman_keys[i]
+            sum += roman_keys[value]
         else:
-            sum = roman_keys[i] - sum
+            sum = roman_keys[value] - sum
     return sum
