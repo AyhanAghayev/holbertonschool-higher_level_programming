@@ -9,4 +9,4 @@ def roman_to_int(roman_string):
             sum += roman_keys[value] - 2 * roman_keys[roman_string[index-1]]
         else:
             sum += roman_keys[value]
-    return sum
+    return str(sum)
