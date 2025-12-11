@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 def raise_exception_msg(message=""):
-    return message
+    print(message)
     raise Exception(message)
