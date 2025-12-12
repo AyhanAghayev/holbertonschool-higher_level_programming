@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def square_matrix_map(matrix=[]):
+def square_matrix(matrix=[]):
     squared_matrix = []
     for rows in matrix:
         row = []
@@ -7,3 +7,6 @@ def square_matrix_map(matrix=[]):
             row.append(i)
         squared_matrix.append(row)
     return squared_matrix
+
+def square_matrix_map(matrix=[]):
+    return map(square_matrix, matrix)
