@@ -1,2 +1,3 @@
 #!/usr/bin/python3
-__import__("zaa")
+import string
+print(string.ascii_uppercase)
