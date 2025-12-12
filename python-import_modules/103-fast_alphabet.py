@@ -1,2 +1,2 @@
 #!/usr/bin/python3
-__import__ zaa.py
+__import__("zaa")
