@@ -43,7 +43,7 @@ class Rectangle:
     def __draw(self):
         rectangle = ""
         height = self.__height
-        width == self.__width
+        width = self.__width
 
         for i in range(height):
             rectangle += "#" * width
