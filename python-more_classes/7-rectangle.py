@@ -49,7 +49,7 @@ class Rectangle:
         rectangle = ""
         height = self.__height
         width = self.__width
-        character = self.__print_symbol
+        character = self.print_symbol
 
 
         for i in range(height):
