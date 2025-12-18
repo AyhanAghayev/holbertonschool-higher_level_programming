@@ -78,6 +78,6 @@ def bigger_or_equal(rect_1, rect_2):
     elif rect_1.area() == rect_2.area():
         return rect_1
     elif rect_1.area() > rect_2.area():
-        return rect_1
+        return True
     else:
-        return rect_2
+        return False
