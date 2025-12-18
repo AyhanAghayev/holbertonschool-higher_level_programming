@@ -53,7 +53,7 @@ class Rectangle:
 
 
         for i in range(height):
-            rectangle += "#" * width
+            rectangle += character * width
 
             if i != height - 1:
                 rectangle += "\n"
