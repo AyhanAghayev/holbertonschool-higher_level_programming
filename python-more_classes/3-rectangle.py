@@ -48,8 +48,8 @@ class Rectangle:
         for i in range(height):
             rectangle += "#" * width
 
-        if i != height - 1:
-            rectangle += "\n"
+            if i != height - 1:
+                rectangle += "\n"
 
         return rectangle
     
