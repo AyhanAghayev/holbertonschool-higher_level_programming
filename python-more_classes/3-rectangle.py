@@ -48,7 +48,7 @@ class Rectangle:
         for i in range(height):
             rectangle += "#" * width
 
-        if i != h - 1:
+        if i != height - 1:
             rectangle += "\n"
 
         return rectangle
