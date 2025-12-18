@@ -40,8 +40,17 @@ class Rectangle:
             return 0
         return (self.__height + self.__width) * 2
 
+    def __draw(self):
+        rectangle = ""
+        height = self.__height
+        width == self.__width
+
+        for i in range(height):
+            rectangle += "#" * width
+            rectangle += "\n"
+        return rectangle
+
     def __str__(self):
         if self.__width == 0 or self.__height == 0:
             return 0
-        for _ in range(self.__height):
-            return "#" * self.__width
+        return self.__draw()
