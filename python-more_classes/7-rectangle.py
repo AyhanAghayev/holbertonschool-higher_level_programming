@@ -51,7 +51,6 @@ class Rectangle:
         width = self.__width
         character = self.print_symbol
 
-
         for i in range(height):
             rectangle += str(character) * width
 
