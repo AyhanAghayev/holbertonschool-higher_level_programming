@@ -1,9 +1,10 @@
 #!/usr/bin/python3
-"""Fuckass module"""
+"""MyList module"""
+
 
 class MyList(list):
-    """MyList class inherits from list"""
+    """MyList class that inherits from list"""
 
     def print_sorted(self):
-        """Prints the list in ascending order"""
+        """Prints the list in ascending sorted order"""
         print(sorted(self))
